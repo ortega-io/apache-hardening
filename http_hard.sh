@@ -31,7 +31,7 @@ fi
 
 # Backing Up Original Configuration
 
-echo -n '> Respaldando configuracion original... '
+echo -n '> Backing Up Original Configuration... '
 cp $CONFIG "$CONFIG.bk" &
 
 SUCCESS=$?
